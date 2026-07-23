@@ -30,7 +30,7 @@ show_menu() {
     clear
     echo " "    
     echo "          欢迎使用Realm一键转发脚本"
-    echo " ———————————— Realm版本v2.9.3 ————————————"
+    echo " ———————————— Realm版本v2.9.4 ————————————"
     echo "     修改by：xingganheguan    修改日期：2026-03-08"
     echo " "
     echo "—————————————————————"
@@ -64,7 +64,7 @@ show_menu() {
 deploy_realm() {
     mkdir -p /root/realm
     cd /root/realm
-    wget -O realm.tar.gz https://github.com/zhboner/realm/releases/download/v2.9.3/realm-x86_64-unknown-linux-gnu.tar.gz
+    wget -O realm.tar.gz https://github.com/zhboner/realm/releases/download/v2.9.4/realm-x86_64-unknown-linux-gnu.tar.gz
     tar -xvf realm.tar.gz
     chmod +x realm
     # 创建服务文件
